@@ -1,0 +1,67 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f8fb;
+}
+
+header {
+    background-color: #007bff;
+    color: white;
+    text-align: center;
+    padding: 2rem 1rem;
+}
+
+header h1 {
+    margin: 0;
+}
+
+.btn-red {
+    background-color: #ff4d4d;
+    color: white;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+#highlights, #packages {
+    display: flex;
+    gap: 1rem;
+    padding: 2rem;
+}
+
+.card, .package-card {
+    background-color: #fff;
+    border: 2px solid #007bff;
+    padding: 1rem;
+    border-radius: 10px;
+    flex: 1;
+    text-align: center;
+}
+
+.package-card {
+    border-color: #ffa500;
+}
+
+.btn-orange {
+    background-color: #ffa500;
+    color: white;
+    padding: 0.5rem 1rem;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+#how-it-works {
+    background-color: #e0f7fa;
+    padding: 2rem;
+    text-align: center;
+}
+
+footer {
+    background-color: #007bff;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 2rem;
+}

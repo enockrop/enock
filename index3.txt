@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Choose Your Package</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Choose Your Package</h1>
+        <p>Select the package that suits your needs.</p>
+    </header>
+
+    <section id="packages">
+        <div class="package-card">
+            <h2>Basic Package</h2>
+            <p>Access to Notes</p>
+            <p><strong>KES 100</strong></p>
+            <button class="btn-orange" onclick="startPayment('Basic')">Subscribe Now</button>
+        </div>
+        <div class="package-card">
+            <h2>Standard Package</h2>
+            <p>Access to Notes & Past Papers</p>
+            <p><strong>KES 200</strong></p>
+            <button class="btn-orange" onclick="startPayment('Standard')">Subscribe Now</button>
+        </div>
+        <div class="package-card">
+            <h2>Premium Package</h2>
+            <p>Access to all resources</p>
+            <p><strong>KES 300</strong></p>
+            <button class="btn-orange" onclick="startPayment('Premium')">Subscribe Now</button>
+        </div>
+    </section>
+</body>
+</html>
